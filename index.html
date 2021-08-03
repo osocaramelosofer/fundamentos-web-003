@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  
+  <body>
 
-  <div>
-    <h1 style="text-align: center; color: rgb(255, 163, 15); font-size: 60px; ">PORTAFOLIO</h1>
-    <h2 style="text-align: center; color: orangered; font-size: 25px;">Fundamentos de programación web</h2>
-    <h3 style="text-align: center; color: rgb(18, 18, 122); font-size: 30px;">Fernando Hernández</h3>
-  </div>
+    <main class="main">
+      <section class="lado_izq">
+        <header class="header">
+          <h1 class="titulo">Programación Web</h1>
+          <h2 class="subtitulo">Portafolio</h2>
+          <h3 class="nombre">Fernando Hernández - Desarrollador Web</h3>
+        </header>
+      </section>
 
-  <div>
-    <h3 style="font-size: 40px; color: orangered;">Mis páginas web :D</h3>
+      <section class="lado_der">
 
-    <div>
-      <!-- Esto es una lista desordenada --> 
-      <ul style="list-style: none;">
-        <li>
-          <a style="font-size: 38px;"  href="./pages/primer_pagina.html">Ir a la página 1</a>
-        </li>
-        <li>
-          <a style="font-size: 38px;" href="./pages/page2.html">Ir a la página 2</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+        <div class="contenedor">
+
+          <details>
+            <summary>HTML</summary>
+            <ol>
+              <li><a href="">Mi primer página</a></li>
+              <li><a href="">Mi segunda página</a></li>
+            </ol>
+          </details>
+
+          <details>
+            <summary>CSS</summary>
+            <ol>
+              <li><a href="./pages/colors.html">Colors</a></li>
+              <li><a href="./pages/colors.html">Colors</a></li>
+              
+            </ol>
+          </details>
+
+        </div>
+
+      </section>
+    </main>
 
 
-</body>
+
+  </body>
 </html>

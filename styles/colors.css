@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Palabra clave*/
+.circle {
+  background-color: royalblue;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  cursor: wait;
+}
+
+/*RGB Decimal*/
+.circle2{
+  background-color: rgb(10, 25, 45);
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+}
+
+/*RGB porcentual*/
+.circle3{
+  background-color: rgb(10%, 25%, 45%);
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+}
+
+/*Hexadecimal*/
+.circle4{
+  background-color: #4b747d;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+}

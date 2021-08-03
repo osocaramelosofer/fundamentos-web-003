@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+}
+
+.lado_izq{
+  background-color: rgba(255, 62, 44, 1);
+  width: 50vw;
+  height: 100vh;
+}
+.header{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/*Explicar esto ya funciona el jsutify content y ya puedo poner los hijos en el centro en lugar de ponerles align text center*/
+.titulo{
+  text-align: center;
+}
+.subtitulo{
+  text-align: center;
+}
+.nombre{
+  text-align: center;
+}
+
+.lado_der{
+  width: 50vw;
+  height: 100vh;
+}
+.contenedor{
+  margin-top: 30%;
+}
+details {
+  font-size: 50px;
+}
+ol{
+  list-style-type: none;
+}
