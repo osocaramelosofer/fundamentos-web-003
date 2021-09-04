@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>functions JS</title>
+</head>
+
+<body>
+  <h1>Functions JS</h1>
+
+  <button onclick="arrowFunction();">
+    Click me
+  </button>
+
+  <script>
+    // Funciones normales JS
+    // Declaramamos/Creamos nuestra función
+    function miPirmerFuncion(){
+      // código a ejecutar
+      alert("Hola desde una función");
+    }
+
+    // Arrow function / función de flecha
+    const arrowFunction = () =>{
+      alert("Hola desde un arrow function");
+    }
+
+    // parametro cuando creamos la función
+    const despedida = ( nombre = 'sin nombre')=>{
+      console.log("Hasta pronto " + nombre);
+  
+    }
+
+    // función con   parametros
+    const saludar = ( saludo ) =>{
+      console.log( saludo + " chicos!");
+    }
+
+    saludar("hola");
+
+    // función que retorna un valor
+    const saludar2 = ( nombre, edad, estado ) =>{
+      return `Hola mi  ${ nombre } y tengo ${ edad } años y soy de ${ estado }`;
+    }
+
+
+
+    saludar2("Perla",16,"Campeche");
+    
+
+
+
+
+
+
+  </script>
+</body>
+</html>

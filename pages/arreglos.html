@@ -15,7 +15,8 @@
     let cajonera = ['playeras', 'pantalones', 'calcetas'];  // tamaño 3
 
     //obtener valor específico
-    //console.log( cajonera[1]  );
+    //console.log( cajonera[  1  ]  );
+
 
     // Modificar un valor del arreglo
     cajonera[2] = 'zapatos';
@@ -48,13 +49,18 @@
     */
 
     console.log(cajonera);
+    cajonera.push("otra cosa");
+    cajonera.push("otra cosa 2");
+
     let estado = 0;
     let tamano = cajonera.length; // 2
     //                     0          1     
     // cajonera = ['pantalones', 'calcetas'];
+    // estado en 0; 
     for( estado; estado < tamano ; estado ++){
       console.log( cajonera[estado] );
     }
+
 
   </script>
 </body>
